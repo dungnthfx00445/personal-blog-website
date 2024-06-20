@@ -1,0 +1,57 @@
+@import './layout.css';
+@import './color.css';
+
+nav {
+    gap: 32px !important;
+}
+
+nav h1 {
+    margin: 0;
+    color: var(--color-header-h1);
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.container {
+    margin: 55px 0 55px 0;
+    padding: 16px 64px 16px 64px;
+}
+
+.container .author img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.container .author {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.container .contact p {
+    margin-bottom: 0;
+}
+
+.container article header {
+    display: flex;
+    gap: 8px;
+}
+
+.container .social img {
+    width: 30px;
+    cursor: pointer;
+}
+.container .social {
+    margin-top: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+h3 {
+    font-size: 20px;
+    color: var(--color-header-h3);
+    font-family: emoji;
+}

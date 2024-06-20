@@ -1,0 +1,36 @@
+@media(max-width: 320px) {
+    .container {
+        margin-top: 55px;
+        display: grid;
+        grid-template-areas: 'blog1' 'blog2' 'blog3' 'blog4';
+        grid-template-columns: 100%;  
+        gap: 13px;
+        margin-bottom: 80px;
+    }
+
+    .container .sidebar {
+        display: none;
+    }
+}
+
+@media(min-width: 901px) {
+    .container {
+        margin: 55px 0;
+        display: grid;
+        grid-template-areas: 'blog1 blog1 blog2 blog2 sidebar' 'blog3 blog3 blog4 blog4 sidebar';
+        grid-template-columns: 20% 20% 20% 20% 15%;  
+        gap: 13px;
+        padding: 16px;
+    }
+}
+
+@media(min-width: 600px) and (max-width: 900px) {
+    .container {
+        margin: 55px 0;
+        display: grid;
+        grid-template-areas: 'blog1 sidebar' 'blog2 sidebar' 'blog3 sidebar' 'blog4 sidebar';
+        grid-template-columns: 78% 20%;  
+        gap: 13px;
+        padding: 16px;
+    }
+}
